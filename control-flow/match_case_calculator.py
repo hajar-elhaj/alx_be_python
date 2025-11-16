@@ -12,7 +12,7 @@ match operation_type:
         if num2 != 0:
             print(f"The quotient is: {num1 / num2}")
         else:
-            print("Error: Division by zero is not allowed.")
+            print("Cannot divide by zero.")
     case _:
         print("Invalid operation selected.")
 print("Thank you for using the calculator!")
