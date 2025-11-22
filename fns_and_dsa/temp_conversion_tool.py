@@ -20,7 +20,8 @@ def main () :
   elif  temperature_type.upper() == "F":
     C = convert_to_celsius(temperature)
     print (f"{temperature}°F is {C}°C")
-
+  else :
+    print ("Invalid temperature. Please enter a numeric value.")
 
 
 if __name__ == "__main__" :
